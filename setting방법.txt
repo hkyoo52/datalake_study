@@ -1,0 +1,15 @@
+1. git repository 연결
+2. 가상환경 생성
+- python -m venv venv
+3. git .ignore 생성
+- echo venv/ > .gitignore
+
+# 참고사항
+1. git add .
+2. git commit -m "커밋할 내용"
+3. git remote -v
+4. git push -u origin main
+
+# 가상환경 접속
+.\venv\Scripts\activate
+
